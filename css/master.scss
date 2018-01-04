@@ -62,9 +62,8 @@ body{
 	}
 }
 nav{
-	display:grid;
-	grid-template-columns:"auto 100px auto";
-	grid-template-areas:"left middle right";
+	display:flex;
+	justify-content:space-between;
 	position:relative;
 	margin: 0 40px;
 	border-bottom:1px solid rgb(108, 111, 113);
