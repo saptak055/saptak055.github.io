@@ -97,7 +97,6 @@ body::-webkit-scrollbar {
     margin-left: 10px;
 }
 #part3{
-    height: 100vh;
     background: url("/img/bg1.png");
     position: relative;
 }
@@ -109,18 +108,38 @@ body::-webkit-scrollbar {
     text-align: center;
     margin-bottom: 50px;
 }
-.feat-gal{
+.ziimg{
     width:40%;
-    background-image: url("/img/906e3a8f0e039b68411d436517828814.png");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
-.gal{
-    height: 100%;
-    width: 100%;
-    background: rgba(138, 137, 255, 0.4);
-    box-shadow: 0 0 20px black;
-    color: teal;
+.livespreeimg{
+    width:50%;
 }
-.gal-grey{
+.livespree-body{
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+.zibyzeany-body,.livespree-body{
+    display: flex;
+    flex-flow: row;
+}
+.zidtl{
+    width: 50%;    
+    padding-left: 50px;
+}
+.zidtl-head{
+    font-size: larger;
+}
+.zidtl-dtl{
+    margin-top: 10px;
+    font-size: small;
+}
+.zidtl-resp{    
+    margin-top: 30px;
+    font-size: medium;
+
+}
+.zidtl-features{
+    margin-top: 10px;
+    font-size: small;
+    line-height: 25px;
 }
