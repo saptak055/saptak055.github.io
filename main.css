@@ -125,9 +125,11 @@ body::-webkit-scrollbar {
 .zidtl{
     width: 50%;    
     padding-left: 50px;
+    color: yellowgreen;
 }
 .zidtl-head{
     font-size: larger;
+    text-decoration: underline;
 }
 .zidtl-dtl{
     margin-top: 10px;
