@@ -3,6 +3,14 @@ body{
    margin: 0;
    color: white;
    font-family: 'Nunito Sans', sans-serif;
+   -ms-overflow-style: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
 }
 #part1{
     height: 100vh;
@@ -17,6 +25,10 @@ body{
         align-items: center;
         margin: 10px auto;
         justify-content: flex-end;
+}
+.arrow{
+    text-decoration: none;
+    color: white;
 }
 .arrow i {
   animation-name: up-and-down;
@@ -45,4 +57,22 @@ body{
     flex-direction: column;
     font-size: xx-large;
     background-color: #4c4573a1;
+}
+#part2{
+    height: 100vh;
+    background-color: violet;
+}
+.cmnsec{
+    padding: 50px;
+}
+.about_head{
+    font-size: xx-large;
+}
+.about_body{
+    display: flex;    
+}
+
+.about_body>div{
+    width:48%;
+    height: 100%;
 }
