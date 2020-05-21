@@ -1,0 +1,31 @@
+#sec-StartGame{
+    position: absolute;
+    background-color: rgba(0,0,0,.8);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    visibility: hidden;
+}
+#main-play
+{
+    background-color: greenyellow;
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 2px #000000;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#main-play:active
+{
+    margin:2px 0px 0px 2px;
+    box-shadow:none;
+}
+#arena{
+    background-color: grey;
+    border: 1px solid black;
+}
